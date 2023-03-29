@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans- serif;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Img1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+
+}
+.navbar .logo{
+    width: 60px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+.container{
+    width: 50%;
+    height: 100vh;
+    background: rgba(86, 86, 86, 0.3);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.info{
+    width: 550px;
+    color: #fff;
+    position :absolute;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+.info h1{
+    font-size: 100px;
+    letter-spacing: 10px;
+    
+    
+}
+.info p{
+    
+    color: #f0eef1;
+    font-size: 11px;
+    margin: 20px 0;
+line-height: 15px;
+
+
+}
+
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+
+}
+.card{ 
+    position: relative;
+    width: 200px;
+    height: 230px;
+display: inline-block;
+border-radius: 10px;
+padding: 15px 25px;
+box-sizing: border-box;
+cursor: pointer;
+margin: 10px 15px;
+background: url(img2.jpg);
+background-position: center;
+background-size:cover;
+transition: transform 0.5s;
+}
+
+table.menu {
+    width: auto;
+    margin-right: 80px;
+    margin-left: auto;
+}
+
+.card1{
+    background-image: url(img2.jpg); 
+}
+.card2{
+    background-image: url(Img3.jpg); 
+}
+
+.card3{
+    background-image: url(Img13.jpg); 
+}
+.card4{
+    background-image: url(Img5.jpg); 
+}
+
+.card:hover{
+    transform: translateY(-10px); 
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
